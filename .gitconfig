@@ -1,0 +1,6 @@
+[user]
+	email = erinkim395@gmail.com	
+	name = Erin Kim
+
+[core]
+	excludesfile = ~/.gitignore_global

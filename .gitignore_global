@@ -1,0 +1,25 @@
+# Created by http://www.gitignore.io
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+### jupyter notebook###
+.ipynb_checkpoints
+*.ipynb
+
+# Package files
+*.egg
+*.eggs/
+.installed.cfg
+*.egg-info
+
+# Per-project virtualenvs
+.venv*/
