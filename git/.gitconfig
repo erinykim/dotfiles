@@ -1,0 +1,13 @@
+[user]
+	name = Erin Kim
+	email = erinkim395@gmail.com
+[core]
+	editor = vim
+	autocrlf = input
+	excludesfile = ~/.gitignore_global
+[help]
+	autocorrect = 1
+[color]
+	ui = true
+
+
