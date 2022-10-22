@@ -1,20 +1,14 @@
-# echo 'start .zshrc'
-# echo $PATH | tr ':' '\n'
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-## Environment
+# Environment
 export DOTFILES="$HOME/.dotfiles"
 export HISTFILE="$ZDOTDIR/.zsh_history"
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+# Set theme
 ZSH_THEME="agnoster"
 
 # Plugins
@@ -57,5 +51,3 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-# echo 'end .zshrc'
-# echo $PATH | tr ':' '\n'
