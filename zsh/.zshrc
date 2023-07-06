@@ -8,6 +8,10 @@ export ZSH="$HOME/.oh-my-zsh"
 export DOTFILES="$HOME/.dotfiles"
 export HISTFILE="$ZDOTDIR/.zsh_history"
 
+# Set vscode as default editor
+export EDITOR="code"
+export VISUAL="code"
+
 # Set theme
 ZSH_THEME="agnoster"
 
@@ -19,7 +23,11 @@ plugins=(
   zsh-syntax-highlighting
 )
 
+# theme
 source $ZSH/oh-my-zsh.sh
+
+# config files
+#source "$ZDOTDIR/aliases.zsh"
 
 # Syntax
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
