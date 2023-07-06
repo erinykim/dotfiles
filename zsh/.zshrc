@@ -27,27 +27,10 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # config files
-#source "$ZDOTDIR/aliases.zsh"
+source "$ZDOTDIR/aliases.zsh"
 
 # Syntax
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-
-# Aliases
-# Python
-alias python="python3"
-alias i="ipython"
-
-# Git
-alias ga='git add'
-alias gaa='git add -u'
-alias gs='git status'
-alias gm='git commit -m'
-alias gco='git checkout'
-alias gnb='git checkout -b'
-alias gd='git diff'
-
-# Neovim
-alias ni="nvim"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
